@@ -9,6 +9,7 @@
     "test": "jest",
     "lint": "eslint .",
     "prod-ios": "ENVFILE=.env.prod react-native run-ios",
+    "release-ios": "ENVFILE=.env.prod npx react-native run-ios --configuration Release",
     "prod-android": "ENVFILE=.env.prod react-native run-android"
   },
   "dependencies": {
