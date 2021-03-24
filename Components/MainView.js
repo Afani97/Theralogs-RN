@@ -114,7 +114,7 @@ export default function MainView() {
       },
     ]
     RNFS.uploadFiles({
-      toUrl: `http://127.0.0.1:8000/rn/file-upload/`,
+      toUrl: `${ApiService.base_url}/file-upload/`,
       files: files,
       method: 'POST',
       headers: {

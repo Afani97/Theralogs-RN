@@ -177,7 +177,7 @@ export default function App() {
               }}
             >
               <Tab.Screen name="Home" component={HomeStackScreen} />
-              <Tab.Screen name="My Client" component={ClientStackScreen} />
+              <Tab.Screen name="My Clients" component={ClientStackScreen} />
               <Tab.Screen name="Profile" component={ProfileStackScreen} />
             </Tab.Navigator>
             ) : (

@@ -5,7 +5,6 @@ import AuthContext from '../auth-context';
 import ApiService from '../ApiService.js';
 import { Button, Input, Field, Text, useTheme } from '@jrobins/bulma-native';
 
- 
 export default function LoginView() {
 
     const theme = useTheme();
